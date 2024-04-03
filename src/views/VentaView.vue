@@ -19,11 +19,12 @@
               cover
             ></v-img>
             <v-card-title>Guacamayos</v-card-title>
-            <v-card-subtitle>USD 500</v-card-subtitle>
             <v-card-actions>
-              <v-btn dense color="dark darken-3" id="buyMeShirtW"
+              <v-btn dense color="dark darken-3" id="buyMeA"
                 href="https://api.whatsapp.com/send?phone=541156610530" 
-                target="_blank">COMPRAR</v-btn>
+                target="_blank">
+                COTIZAR
+              </v-btn>
             </v-card-actions>
           </v-card>
         </v-col>
@@ -35,14 +36,13 @@
               cover
             ></v-img>
             <v-card-title>Muro de Agua</v-card-title>
-            <v-card-subtitle>USD 2.000</v-card-subtitle>
             <v-card-actions>
               <v-btn dense 
                 color="dark darken-3" 
-                id="buyMeShirtB"
+                id="buyMeB"
                 href="https://api.whatsapp.com/send?phone=541156610530" 
                 target="_blank">
-                COMPRAR
+                COTIZAR
                 </v-btn>
             </v-card-actions>
           </v-card>
@@ -55,11 +55,12 @@
               cover
             ></v-img>
             <v-card-title>Cascada</v-card-title>
-            <v-card-subtitle>USD 1.500</v-card-subtitle>
             <v-card-actions>
-              <v-btn dense color="dark darken-3" id="buyMeShirtW"
+              <v-btn dense color="dark darken-3" id="buyMeC"
                 href="https://api.whatsapp.com/send?phone=541156610530" 
-                target="_blank">COMPRAR</v-btn>
+                target="_blank">
+                COTIZAR
+              </v-btn>
             </v-card-actions>
           </v-card>
         </v-col>
@@ -71,14 +72,13 @@
               cover
             ></v-img>
             <v-card-title>León</v-card-title>
-            <v-card-subtitle>USD 850</v-card-subtitle>
             <v-card-actions>
               <v-btn 
                 color="dark darken-3" 
-                id="buyMeShirtB"
+                id="buyMeD"
                 href="https://api.whatsapp.com/send?phone=541156610530" 
                 target="_blank">
-                COMPRAR
+                COTIZAR
                 </v-btn>
             </v-card-actions>
           </v-card>
