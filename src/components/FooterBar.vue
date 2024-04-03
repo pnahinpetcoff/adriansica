@@ -1,49 +1,37 @@
 <template>
-<div class="bg-black text-center footer">
+<div class="bg-green text-center footer">
     <v-row>
-      <v-col cols="3">
-        <v-btn
-          id="soundCloudMedia"
-          icon="fab fa-soundcloud"
-          variant="plain"
-          color="white"
-          href="https://soundcloud.com/barto_dj"
-          target="_blank"
-          aria-label="Go to SoundCloud Media"
-        >
-        </v-btn>
-      </v-col>
-      <v-col cols="3">
-        <v-btn
-          id="spotifyMedia"
-          icon="fab fa-spotify"
-          variant="plain"
-          color="white"
-          href="https://open.spotify.com/user/0exp86bmmkk2i9jeq8wuj3xfh?si=15b43d95cc2f4cda"
-          target="_blank"
-          aria-label="Go to Spotify Media"
-        ></v-btn>
-      </v-col>
-      <v-col cols="3">
+      <v-col cols="4">
         <v-btn
           id="youTubeMedia"
           icon="fab fa-youtube"
           variant="plain"
           color="white"
-          href="https://www.youtube.com/@barto_dj"
+          href="https://www.youtube.com/@adriansica6110"
           target="_blank"
           aria-label="Go to Youtube Media"
         ></v-btn>
       </v-col>
-      <v-col cols="3">
+      <v-col cols="4">
         <v-btn
           id="instagramMedia"
           icon="fab fa-instagram"
           variant="plain"
           color="white"
-          href="https://www.instagram.com/_bartodj/"
+          href="https://www.instagram.com/adrian_sica/"
           target="_blank"
           aria-label="Go to Instagram Media"
+        ></v-btn>
+      </v-col>
+      <v-col cols="4">
+        <v-btn
+          id="instagramMedia"
+          icon="fab fa-facebook"
+          variant="plain"
+          color="white"
+          href="https://www.facebook.com/profile.php?id=100056421277902"
+          target="_blank"
+          aria-label="Go to Facebook Media"
         ></v-btn>
       </v-col>
     </v-row>

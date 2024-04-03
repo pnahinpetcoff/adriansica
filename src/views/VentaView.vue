@@ -1,0 +1,124 @@
+<template>
+  <div class="content">
+    <v-container>
+      <v-row>
+        <v-col cols="12">
+        </v-col>
+        <v-col cols="12">
+        </v-col>
+        <v-col cols="12">
+        </v-col>
+        <v-col cols="12">
+          <h2 class="title">{{'CATÁLOGO'}}</h2>
+        </v-col>
+        <v-col cols="6">
+          <v-card color="green">
+            <v-img
+              :src="img1" 
+              :max-height="450" 
+              cover
+            ></v-img>
+            <v-card-title>Guacamayos</v-card-title>
+            <v-card-subtitle>USD 500</v-card-subtitle>
+            <v-card-actions>
+              <v-btn dense color="dark darken-3" id="buyMeShirtW"
+                href="https://api.whatsapp.com/send?phone=541156610530" 
+                target="_blank">COMPRAR</v-btn>
+            </v-card-actions>
+          </v-card>
+        </v-col>
+        <v-col cols="6">
+          <v-card color="green">
+            <v-img
+              :src="img2"
+              :max-height="450" 
+              cover
+            ></v-img>
+            <v-card-title>Muro de Agua</v-card-title>
+            <v-card-subtitle>USD 2.000</v-card-subtitle>
+            <v-card-actions>
+              <v-btn dense 
+                color="dark darken-3" 
+                id="buyMeShirtB"
+                href="https://api.whatsapp.com/send?phone=541156610530" 
+                target="_blank">
+                COMPRAR
+                </v-btn>
+            </v-card-actions>
+          </v-card>
+        </v-col>
+        <v-col cols="6">
+          <v-card color="green">
+            <v-img
+              :src="img3"
+              :max-height="450" 
+              cover
+            ></v-img>
+            <v-card-title>Cascada</v-card-title>
+            <v-card-subtitle>USD 1.500</v-card-subtitle>
+            <v-card-actions>
+              <v-btn dense color="dark darken-3" id="buyMeShirtW"
+                href="https://api.whatsapp.com/send?phone=541156610530" 
+                target="_blank">COMPRAR</v-btn>
+            </v-card-actions>
+          </v-card>
+        </v-col>
+        <v-col cols="6">
+          <v-card color="green">
+            <v-img
+              :src="img4"
+              :max-height="400" 
+              cover
+            ></v-img>
+            <v-card-title>León</v-card-title>
+            <v-card-subtitle>USD 850</v-card-subtitle>
+            <v-card-actions>
+              <v-btn 
+                color="dark darken-3" 
+                id="buyMeShirtB"
+                href="https://api.whatsapp.com/send?phone=541156610530" 
+                target="_blank">
+                COMPRAR
+                </v-btn>
+            </v-card-actions>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+  </div>
+</template>
+
+<script>
+
+export default {
+  props: {
+    img1: {
+      type: String,
+      default: '/venta/1.png'
+    },
+    img2: {
+      type: String,
+      default: '/venta/2.png'
+    },
+    img3: {
+      type: String,
+      default: '/venta/3.png'
+    },
+    img4: {
+      type: String,
+      default: '/venta/4.png'
+    }
+  },
+  name: 'ProductosView',
+  data() {
+    return {
+      
+    };
+  },
+  components: {
+  },
+}
+</script>
+
+<style>
+</style>

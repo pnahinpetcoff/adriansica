@@ -7,6 +7,8 @@
         <v-col cols="12">
         </v-col>
         <v-col cols="12">
+        </v-col>
+        <v-col cols="12">
           <h2 class="title">{{'BIO'}}</h2>
         </v-col>
         <v-col cols="12">
@@ -19,18 +21,10 @@
               :src="img2"
             >
             </v-carousel-item>
-            <v-carousel-item
-              :src="img3"
-            >
-            </v-carousel-item>
-            <v-carousel-item
-              :src="img4"
-            >
-            </v-carousel-item>
           </v-carousel>
         </v-col>
         <v-col cols="12">
-          <v-card color="black">
+          <v-card color="green">
             <v-card-text v-html="this.text">
             </v-card-text>
           </v-card>
@@ -64,7 +58,7 @@ export default {
   name: 'BioView',
   data() {
     return {
-       text: 'Tomas Bartolomei AKA Barto, its a versatile open format DJ and music producer who merges a variety of musical styles, with a particular emphasis on hip hop, funk, R&B, and house.</br></br>His meticulous track selection considers the venue, audience, and collaborating artists. From creating the incredible vibe at clubs to sets the perfect mood for corporate events, chill gatherings, or bars. His curated sound delivers unforgettable experiences.</br>As a music producer, he also create remixes and mashups specifically tailored for his sets, adding an extra layer of creativity and uniqueness to his performances.</br></br>In addition, Barto serves as the director of DJ Academy, a music school in Buenos Aires. Sharing his knowledge and inspiring the next generation of DJs is a true passion of his.</br></br>Beyond his role as a DJ and educator, Barto is the owner of Foco, an event production company and artist agency. Through FOCO, Barto brings together exceptional talents and crafts extraordinary music events that deeply resonate with audiences.</br></br>Furthermore, Barto embarks on an exciting musical side project called Posadas Experience, where he collaborates alongside his brother Lucas. Together, they harmoniously merge the art of DJing with the captivating sounds of synths and guitars, resulting in a truly unique and enthralling musical experience.'
+       text: 'Adrián Amadeo Sica es un artista plástico nacido en el año 1969 en la provincia de Buenos Aires, Argentina. Es hijo de padre italiano y madre sirio-libanés, quien también era artista plástica. Todas las obras del artista comienzan con la reformación de un auto coupé Chevy 1972 donde experimenta su arte con materiales de resina y fibra de vidrio. Una vez finalizada, dicha obra gana el primer premio en la "Exposición del Automóvil" de La Rural compitiendo con autos de las marcas Ferrari, Lamborghini y clásicos americanos entre otros. De esta manera, el artista, da rienda suelta realizando distintas obras de arte de decoración para exterior o interior como animales de gran realismo en escala 1:1. Además se destacan sus cascadas artificiales, murales y muros de agua. Cabe destacar que todas estas obras son exclusivas de nuestro artista.'
     };
   },
   components: {

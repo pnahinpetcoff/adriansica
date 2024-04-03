@@ -2,9 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Pics from '../views/PicsView.vue'
 import Contact from '../views/ContactView.vue'
 import Bio from '../views/BioView.vue'
-import Merch from '../views/MerchView.vue'
-import Academy from '../views/AcademyView.vue'
-import Agency from '../views/AgencyView.vue'
+import Venta from '../views/VentaView.vue'
+import Obras from '../views/ObrasView.vue'
 import Home from '../views/HomeView.vue'
 import Donation from '../views/DonationView.vue'
 import NotFound from '../views/PageNotFoundView.vue'
@@ -27,9 +26,9 @@ const routes = [
     component: Contact
   },
   {
-    path: '/merch',
-    name: 'merch',
-    component: Merch
+    path: '/productos',
+    name: 'productos',
+    component: Venta
   },
   {
     path: '/bio',
@@ -37,19 +36,9 @@ const routes = [
     component: Bio
   },
   {
-    path: '/music',
-    name: 'music',
-    component: () => import('../views/MusicView.vue')
-  },
-  {
-    path: '/academy',
-    name: 'academy',
-    component: Academy
-  },
-  {
-    path: '/agency',
-    name: 'agency',
-    component: Agency
+    path: '/obras',
+    name: 'obras',
+    component: Obras
   },
   {
     path: '/donation',

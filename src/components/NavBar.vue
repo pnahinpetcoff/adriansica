@@ -1,16 +1,16 @@
 <template>
   <div id="navbar">
-    <v-app-bar app color="black">
-      <v-btn :to="'/'" height="200" :max-width="200" flat @click="drawer = false" id="bartoDjHome" aria-label="Go to BartDj Home Page">
+    <v-app-bar app color="green" flat>
+      <v-btn :to="'/'" height="200" :max-width="200" flat @click="drawer = false" id="adrianSicaHome" aria-label="Go to BartDj Home Page">
         <v-img src="/navbar/1.png" :width="200"> </v-img>
       </v-btn>
       <v-spacer> </v-spacer>
       <v-spacer> </v-spacer>
       <v-spacer> </v-spacer>
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" id="bartoDjItems" aria-label="Navigate tabs for BartoDj"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" id="adrianSicaItems" aria-label="Navigate tabs for Adrian Sica"></v-app-bar-nav-icon>
     </v-app-bar>
     <v-navigation-drawer
-      color="black"
+      color="green"
       v-model="drawer"
       location="right"
     >
@@ -37,37 +37,27 @@ export default {
       drawer: false,
       items: [
         {
-          title: "MUSIC",
-          route: "music",
-          id: 6,
-        },
-        {
           title: "BIO",
           route: "bio",
           id: 4,
         },
         {
-          title: "DJ ACADEMY",
-          route: "academy",
+          title: "OBRAS",
+          route: "obras",
           id: 7,
         },
         {
-          title: "FOCO AGENCY",
-          route: "agency",
-          id: 8,
-        },
-        {
-          title: "MERCH",
-          route: "merch",
+          title: "PRODUCTOS",
+          route: "productos",
           id: 5,
         },
         {
-          title: "CONTACT",
+          title: "CONTACTO",
           route: "contact",
           id: 3,
         },
         {
-          title: "SUPPORT ME",
+          title: "GRACIAS",
           route: "donation",
           id: 3,
         }
