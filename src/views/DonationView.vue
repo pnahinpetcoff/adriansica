@@ -12,7 +12,7 @@
           <h2 class="title">{{'AGRADECIMIENTOS'}}</h2>
         </v-col>
         <v-col cols="12">
-          <v-card color="green">
+          <v-card color="black">
             <v-card-text v-html="this.text"></v-card-text>
           </v-card>
         </v-col>

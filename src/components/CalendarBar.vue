@@ -81,7 +81,7 @@ export default {
       ],
       value: '',
       events: [],
-      colors: ['blue', 'indigo', 'dark', 'cyan', 'green', 'orange', 'grey darken-1'],
+      colors: ['blue', 'indigo', 'dark', 'cyan', 'black', 'orange', 'grey darken-1'],
       names: ['Meeting', 'Holiday', 'PTO', 'Travel', 'Event', 'Birthday', 'Conference', 'Party'],
     }),
     methods: {

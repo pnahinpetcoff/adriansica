@@ -12,7 +12,7 @@
           <h2 class="title">{{'CATÁLOGO'}}</h2>
         </v-col>
         <v-col cols="6">
-          <v-card color="green">
+          <v-card color="black">
             <v-img
               :src="img1" 
               :max-height="450" 
@@ -29,7 +29,7 @@
           </v-card>
         </v-col>
         <v-col cols="6">
-          <v-card color="green">
+          <v-card color="black">
             <v-img
               :src="img2"
               :max-height="450" 
@@ -48,7 +48,7 @@
           </v-card>
         </v-col>
         <v-col cols="6">
-          <v-card color="green">
+          <v-card color="black">
             <v-img
               :src="img3"
               :max-height="450" 
@@ -65,7 +65,7 @@
           </v-card>
         </v-col>
         <v-col cols="6">
-          <v-card color="green">
+          <v-card color="black">
             <v-img
               :src="img4"
               :max-height="400" 

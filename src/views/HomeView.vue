@@ -31,7 +31,7 @@ export default {
 
 <style>
 .content {
-  background-color: green;
+  background-color: black;
 }
 .title {
   color: white;

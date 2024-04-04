@@ -11,7 +11,7 @@
       </router-view>
       </v-col>
       <v-col cols="12" class="text-center" style="flat">
-        <v-card rounded="0" elevation="20" color="green" text="SalchiDevs®">
+        <v-card rounded="0" elevation="20" color="black" text="SalchiDevs®">
         </v-card>
       </v-col>
       <v-col cols="12"></v-col>

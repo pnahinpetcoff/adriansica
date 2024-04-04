@@ -12,7 +12,7 @@
           <h2 class="title">{{'CONTACTO'}}</h2>
         </v-col>
         <v-col cols="12">
-          <v-card color="green">
+          <v-card color="black">
             <div class="d-flex flex-no-wrap justify-space-between">
               <div>
                 <v-card-title>{{'DIRECTO'}}</v-card-title> 

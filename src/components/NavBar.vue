@@ -1,6 +1,6 @@
 <template>
   <div id="navbar">
-    <v-app-bar app color="green" flat>
+    <v-app-bar app color="black" flat>
       <v-btn :to="'/'" height="200" :max-width="200" flat @click="drawer = false" id="adrianSicaHome" aria-label="Go to BartDj Home Page">
         <v-img src="/navbar/1.png" :width="200"> </v-img>
       </v-btn>
@@ -10,7 +10,7 @@
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" id="adrianSicaItems" aria-label="Navigate tabs for Adrian Sica"></v-app-bar-nav-icon>
     </v-app-bar>
     <v-navigation-drawer
-      color="green"
+      color="black"
       v-model="drawer"
       location="right"
     >

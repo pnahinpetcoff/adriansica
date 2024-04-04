@@ -1,5 +1,5 @@
 <template>
-<div class="bg-green text-center footer">
+<div class="bg-black text-center footer">
     <v-row>
       <v-col cols="4">
         <v-btn
