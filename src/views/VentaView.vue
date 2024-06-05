@@ -57,7 +57,7 @@
             ></v-img>
             <v-card-title>Águila</v-card-title>
             <v-card-text v-html="this.text3"></v-card-text>
-            <v-card-actions >            
+            <v-card-actions>            
               <v-btn
                 variant="outlined"
                 id="buyMeC"
@@ -78,7 +78,6 @@
             <v-card-text v-html="this.text13"></v-card-text>
             <v-card-actions>            
               <v-btn
-              
                 variant="outlined"
                 id="buyMeM"
                 href="https://api.whatsapp.com/send?phone=541156610530" 
@@ -138,7 +137,6 @@
             <v-card-text v-html="this.text12"></v-card-text>
             <v-card-actions>            
               <v-btn
-              
                 variant="outlined"
                 id="buyMeL"
                 href="https://api.whatsapp.com/send?phone=541156610530" 
@@ -158,7 +156,6 @@
             <v-card-text v-html="this.text8"></v-card-text>
             <v-card-actions>            
               <v-btn
-              
                 variant="outlined"
                 id="buyMeH"
                 href="https://api.whatsapp.com/send?phone=541156610530" 

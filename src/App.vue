@@ -4,7 +4,7 @@
     <Navbar/>
     <v-row>
       <v-col cols="12">
-      <router-view v-slot="{ Component }" fluid>
+      <router-view v-slot="{ Component }">
         <keep-alive>
           <component :is="Component" />
         </keep-alive>
