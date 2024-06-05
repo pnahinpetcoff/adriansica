@@ -12,7 +12,7 @@
           <h2 class="title">{{'CATÁLOGO'}}</h2>
         </v-col>
         <v-col md="12" sm="12" lg="3">
-          <v-card color="black" height="580">
+          <v-card color="black" height="600">
             <v-img
               :src="img1" 
               height="360"
@@ -33,7 +33,7 @@
           </v-card>
         </v-col>
         <v-col md="12" sm="12" lg="3">
-          <v-card color="black" height="580">
+          <v-card color="black" height="600">
             <v-img
               :src="img2" 
               height="360"
@@ -54,7 +54,7 @@
           </v-card>
         </v-col>
         <v-col md="12" sm="12" lg="3">
-          <v-card color="black" height="580">
+          <v-card color="black" height="600">
             <v-img
               :src="img3" 
               height="360"
@@ -75,7 +75,7 @@
           </v-card>
         </v-col>
         <v-col md="12" sm="12" lg="3">
-          <v-card color="black" height="580">
+          <v-card color="black" height="600">
             <v-img
               :src="img13" 
               height="360"
@@ -96,12 +96,12 @@
           </v-card>
         </v-col>
         <v-col md="12" sm="12" lg="3" cols="6">
-          <v-card color="black" height="580">
+          <v-card color="black" height="600">
             <v-img
               :src="img5" 
               height="360"
             ></v-img>
-            <v-card-title>Buda Grande</v-card-title>
+            <v-card-title class="text-wrap">Buda Grande</v-card-title>
             <v-card-text v-html="this.text5"></v-card-text>
             <v-card-actions>   
               <div style="position: absolute; bottom: 0">            
@@ -117,7 +117,7 @@
           </v-card>
         </v-col>
         <v-col md="12" sm="12" lg="3" cols="6">
-          <v-card color="black" height="580">
+          <v-card color="black" height="600">
             <v-img
               :src="img6" 
               height="360"
@@ -139,7 +139,7 @@
           </v-card>
         </v-col>
         <v-col md="12" sm="12" lg="3">
-          <v-card color="black" height="580">
+          <v-card color="black" height="600">
             <v-img
               :src="img12" 
               height="360"
@@ -160,7 +160,7 @@
           </v-card>
         </v-col>
         <v-col md="12" sm="12" lg="3">
-          <v-card color="black" height="580">
+          <v-card color="black" height="600">
             <v-img
               :src="img8" 
               height="360"
@@ -181,7 +181,7 @@
           </v-card>
         </v-col>
         <v-col md="12" sm="12" lg="3">
-          <v-card color="black" height="580">
+          <v-card color="black" height="600">
             <v-img
               :src="img9" 
               height="360"
@@ -202,7 +202,7 @@
           </v-card>
         </v-col>
         <v-col md="12" sm="12" lg="3">
-          <v-card color="black" height="580">
+          <v-card color="black" height="600">
             <v-img
               :src="img10" 
               height="360"
@@ -223,7 +223,7 @@
           </v-card>
         </v-col>
         <v-col md="12" sm="12" lg="3" cols="6">
-          <v-card color="black" height="580">
+          <v-card color="black" height="600">
             <v-img
               :src="img11" 
               height="360"
@@ -244,7 +244,7 @@
           </v-card>
         </v-col>
         <v-col md="12" sm="12" lg="3" cols="6">
-          <v-card color="black" height="580">
+          <v-card color="black" height="600">
             <v-img
               :src="img7" 
               height="360"
@@ -265,7 +265,7 @@
           </v-card>
         </v-col>
         <v-col md="12" sm="12" lg="3" cols="6">
-          <v-card color="black" height="580">
+          <v-card color="black" height="600">
             <v-img
               :src="img4" 
               height="360"
