@@ -57,7 +57,7 @@
             ></v-img>
             <v-card-title>Águila</v-card-title>
             <v-card-text v-html="this.text3"></v-card-text>
-            <v-card-actions>            
+            <v-card-actions >            
               <v-btn
                 variant="outlined"
                 id="buyMeC"
@@ -252,7 +252,7 @@
           <v-card color="black">
             <v-img
               :src="img4" 
-              cover
+              height="360"
             ></v-img>
             <v-card-title>Tigre</v-card-title>
             <v-card-text v-html="this.text4"></v-card-text>
