@@ -127,7 +127,6 @@
             <v-card-actions>
               <div style="position: absolute; bottom: 0">            
                 <v-btn
-                
                   variant="outlined"
                   id="buyMeF"
                   href="https://api.whatsapp.com/send?phone=541156610530" 
@@ -159,7 +158,7 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col md="12" sm="12" lg="3">
+        <v-col md="12" sm="12" lg="3" cols="6">
           <v-card color="black" height="600">
             <v-img
               :src="img8" 
