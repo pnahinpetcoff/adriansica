@@ -21,6 +21,10 @@
               :src="img2"
             >
             </v-carousel-item>
+            <v-carousel-item
+              :src="img3"
+            >
+            </v-carousel-item>
           </v-carousel>
         </v-col>
         <v-col cols="12">
@@ -49,10 +53,6 @@ export default {
     img3: {
       type: String,
       default: '/bio/3.png'
-    },
-    img4: {
-      type: String,
-      default: '/bio/4.png'
     }
   },
   name: 'BioView',
