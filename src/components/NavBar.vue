@@ -47,7 +47,7 @@ export default {
           id: 7,
         },
         {
-          title: "PRODUCTOS",
+          title: "CATÁLOGO",
           route: "productos",
           id: 5,
         },

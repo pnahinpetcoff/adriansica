@@ -11,7 +11,7 @@
         <v-col cols="12">
           <h2 class="title">{{'CATÁLOGO'}}</h2>
         </v-col>
-        <v-col md="12" sm="12" lg="3">
+        <v-col md="12" sm="12" lg="3" cols="6">
           <v-card color="black" height="630">
             <v-img
               :src="img1" 
@@ -32,7 +32,7 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col md="12" sm="12" lg="3">
+        <v-col md="12" sm="12" lg="3" cols="6">
           <v-card color="black" height="630">
             <v-img
               :src="img2" 
@@ -53,7 +53,7 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col md="12" sm="12" lg="3">
+        <v-col md="12" sm="12" lg="3" cols="6">
           <v-card color="black" height="630">
             <v-img
               :src="img3" 
@@ -74,7 +74,7 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col md="12" sm="12" lg="3">
+        <v-col md="12" sm="12" lg="3" cols="6">
           <v-card color="black" height="630">
             <v-img
               :src="img13" 
@@ -137,7 +137,7 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col md="12" sm="12" lg="3">
+        <v-col md="12" sm="12" lg="3" cols="6">
           <v-card color="black" height="630">
             <v-img
               :src="img12" 
@@ -180,7 +180,7 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col md="12" sm="12" lg="3">
+        <v-col md="12" sm="12" lg="3" cols="6">
           <v-card color="black" height="630">
             <v-img
               :src="img9" 
@@ -201,7 +201,7 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col md="12" sm="12" lg="3">
+        <v-col md="12" sm="12" lg="3" cols="6">
           <v-card color="black" height="630">
             <v-img
               :src="img10" 
