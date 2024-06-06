@@ -17,7 +17,7 @@
               :src="img1" 
               height="360"
             ></v-img>
-            <v-card-title>Guacamayos</v-card-title>
+            <v-card-title class="text-wrap">Guacamayos</v-card-title>
             <v-card-text v-html="this.text1"></v-card-text>
             <v-card-actions>    
               <div style="position: absolute; bottom: 0">        
@@ -163,7 +163,6 @@
             <v-img
               :src="img8" 
               height="360"
-              width="200"
             ></v-img>
             <v-card-title class="text-wrap">Buda Mediano</v-card-title>
             <v-card-text v-html="this.text8"></v-card-text>
